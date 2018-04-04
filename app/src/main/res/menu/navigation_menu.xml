@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_category"
+            android:icon="@drawable/ic_add"
+            android:title="Add category"/>
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_trash"
+                android:icon="@drawable/ic_delete"
+                android:title="Trash" />
+
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_setting"
+                android:title="Setting" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black"
+                android:title="Help"/>
+        </menu>
+    </item>
+</menu>
